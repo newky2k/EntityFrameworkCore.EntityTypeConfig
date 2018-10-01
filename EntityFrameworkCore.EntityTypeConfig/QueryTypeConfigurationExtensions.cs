@@ -7,7 +7,7 @@ namespace Microsoft.EntityFrameworkCore
 {
     public static class QueryTypeConfigurationExtensions
     {
-        private static readonly MethodInfo entityMethod = typeof(ModelBuilder).GetTypeInfo().GetMethods().Single(x => (x.Name == "Entity") && (x.IsGenericMethod == true) && (x.GetParameters().Length == 0));
+        private static readonly MethodInfo entityMethod = typeof(ModelBuilder).GetTypeInfo().GetMethods().Single(x => (x.Name == "Query") && (x.IsGenericMethod == true) && (x.GetParameters().Length == 0));
 
         private static Type FindQueryType(Type type)
         {

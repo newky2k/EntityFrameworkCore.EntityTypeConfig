@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageId>DSoft.EntityFrameworkCore.EntityTypeConfig</PackageId>
+    <Authors>newky2k</Authors>
+    <Product>DSoft.EntityFrameworkCore.EntityTypeConfig</Product>
+    <Description>Extensions of EntityFrameworkCore to make it easier to add Entity and Query Configurations by assembly</Description>
+    <PackageProjectUrl>https://github.com/newky2k/EntityFrameworkCore.EntityTypeConfig</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/newky2k/EntityFrameworkCore.EntityTypeConfig/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/newky2k/EntityFrameworkCore.EntityTypeConfig</RepositoryUrl>
+    <PackageTags>EntityFrameworkCore</PackageTags>
+    <PackageReleaseNotes>initial release</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
